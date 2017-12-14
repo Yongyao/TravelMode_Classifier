@@ -1,1 +1,4 @@
 
+# TravelMode Classifier
+
+The mobility mode implied in volunteered raw GPS tracking data can provide us with valuable information to understand the user. In this paper, we propose an approach that can be used to detect mobility mode by mining/analyzing the geographic location, duration, speed as well as spatial context information in the data. Other ancillary GIS layers such as building footprints are also included to help classify the data. Our approach has been tested on three datasets. Five mobility modes: “transporting”, “parking”, “walking”, “roaming” and “indoor” are detected in our results. A quantitative comparison with the human interpretation results suggested an overall accuracy of 95%. The proposed approach is expected to facilitate the research of many geographic communities and development of location-based service.
