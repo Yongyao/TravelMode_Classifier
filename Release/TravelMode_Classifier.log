@@ -1,0 +1,76 @@
+﻿生成启动时间为 2013/8/3 23:28:51。
+     1>项目“C:\GPS_DATA_Analysis\TravelMode_Classifier\TravelMode_Classifier\TravelMode_Classifier.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\GPS_DATA_Analysis\TravelMode_Classifier\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\TravelMode_Classifier.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\TravelMode_Classifier.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\TravelMode_Classifier.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DialogPara.cpp GPoint.cpp MainFrm.cpp Segment.cpp TravelMode_Classifier.cpp TravelMode_ClassifierDoc.cpp TravelMode_ClassifierView.cpp
+         DialogPara.cpp
+     1>c:\gps_data_analysis\travelmode_classifier\travelmode_classifier\resource.h(33): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(9293) : 参见“IDCANCEL”的前一个定义
+         GPoint.cpp
+         MainFrm.cpp
+     1>c:\gps_data_analysis\travelmode_classifier\travelmode_classifier\resource.h(33): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(9293) : 参见“IDCANCEL”的前一个定义
+         Segment.cpp
+     1>Segment.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+     1>Segment.cpp(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>Segment.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+         TravelMode_Classifier.cpp
+     1>c:\gps_data_analysis\travelmode_classifier\travelmode_classifier\resource.h(33): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(9293) : 参见“IDCANCEL”的前一个定义
+         TravelMode_ClassifierDoc.cpp
+     1>c:\gps_data_analysis\travelmode_classifier\travelmode_classifier\resource.h(33): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(9293) : 参见“IDCANCEL”的前一个定义
+     1>TravelMode_ClassifierDoc.cpp(208): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>TravelMode_ClassifierDoc.cpp(209): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>TravelMode_ClassifierDoc.cpp(210): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>TravelMode_ClassifierDoc.cpp(217): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>TravelMode_ClassifierDoc.cpp(225): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(251): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(284): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(302): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(321): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(369): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(385): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(404): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(455): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(471): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(490): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(564): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(603): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(644): warning C4018: “<”: 有符号/无符号不匹配
+     1>TravelMode_ClassifierDoc.cpp(160): warning C4101: “At”: 未引用的局部变量
+         TravelMode_ClassifierView.cpp
+     1>c:\gps_data_analysis\travelmode_classifier\travelmode_classifier\resource.h(33): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(9293) : 参见“IDCANCEL”的前一个定义
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\TravelMode_Classifier.res" TravelMode_Classifier.rc 
+     1>c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.rh(1328): warning RC4005: 'IDCANCEL' : redefinition
+         
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GPS_DATA_Analysis\TravelMode_Classifier\Release\TravelMode_Classifier.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\TravelMode_Classifier.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GPS_DATA_Analysis\TravelMode_Classifier\Release\TravelMode_Classifier.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GPS_DATA_Analysis\TravelMode_Classifier\Release\TravelMode_Classifier.lib" /MACHINE:X86 Release\TravelMode_Classifier.res
+         Release\DialogPara.obj
+         Release\GPoint.obj
+         Release\MainFrm.obj
+         Release\Segment.obj
+         Release\stdafx.obj
+         Release\TravelMode_Classifier.obj
+         Release\TravelMode_ClassifierDoc.obj
+         Release\TravelMode_ClassifierView.obj
+         正在生成代码
+         已完成代码的生成
+         TravelMode_Classifier.vcxproj -> C:\GPS_DATA_Analysis\TravelMode_Classifier\Release\TravelMode_Classifier.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\GPS_DATA_Analysis\TravelMode_Classifier\Release\TravelMode_Classifier.exe;#1" /manifest Release\TravelMode_Classifier.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\TravelMode_Classifier.unsuccessfulbuild”。
+         正在对“Release\TravelMode_Classifier.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\GPS_DATA_Analysis\TravelMode_Classifier\TravelMode_Classifier\TravelMode_Classifier.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.50
